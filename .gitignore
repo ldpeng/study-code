@@ -1,0 +1,10 @@
+# macOS
+.DS_Store
+
+# JetBrains IDEs
+*/.idea/
+*/out/
+.iml
+
+#node
+*/node_modules/
