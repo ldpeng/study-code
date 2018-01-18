@@ -1,4 +1,5 @@
-# _*_coding:utf-8-*-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
 # 会依次打印每个字符串，遇到逗号“,”会输出一个空格
 print('The quick brown fox', 'jumps over', 'the lazy dog')
