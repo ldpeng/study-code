@@ -1,0 +1,13 @@
+body { background: pink; }
+
+#big{
+    width: 100px;
+    height: 100px;
+    background-image: url(big.jpg);
+}
+
+#small{
+    width: 100px;
+    height: 100px;
+    background-image: url(small.jpg);
+}
