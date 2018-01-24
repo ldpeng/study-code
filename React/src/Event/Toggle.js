@@ -11,7 +11,7 @@ export default class Toggle extends React.Component {
 
     handleClick() {
 
-        //这里需要使用函数的方式重新指定state中的值，因为state类似于Java类的成员变量，在多线程环境下会产生资源竞争
+        //如果需要使用到state 或者 props 的属性来计算出新的值，需要使用函数的方式，不然直接取这两个属性可能不准确
         //这里函数第一个参数是先前的状态（prevState），还有第二个参数是此次更新被应用时的（props）
         this.setState(prevState => ({
             isToggleOn: !prevState.isToggleOn

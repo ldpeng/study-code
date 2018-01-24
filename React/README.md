@@ -34,3 +34,10 @@ npm install --save react react-dom
 npm install --save-dev babel-preset-react
 ```
 
+# 路由
+
+## react-router
+
+```
+npm install --save react-router-dom
+```
