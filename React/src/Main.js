@@ -54,9 +54,9 @@ export default class Main extends React.Component {
                             <Page/>
                         </div>
                     )}/>
-                    {/* render 可以接受 props 作为参数 */}
+                    {/* render 可以接受 props 作为参数， 并且可以通过 ... 操作符将整个对象传过去 */}
                     <Route path={`${this.props.match.url}/list`} render={(props) => (
-                        <NumberList numbers={[1, 2, 3, 4, 5]}/>
+                        <NumberList {...props} numbers={[1, 2, 3, 4, 5]}/>
                     )}/>
                     <Route path={`${this.props.match.url}/form`} component={FormText}/>
                     <Route path={`${this.props.match.url}/demo`} component={React_Demo}/>
