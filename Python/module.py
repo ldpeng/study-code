@@ -8,6 +8,9 @@
 # 指定模块的作者
 __author__ = 'LDP'
 
+# 获得当前模块名称
+print(__file__)
+
 # sys模块有一个argv变量，用list存储了命令行的所有参数。argv至少有一个元素，因为第一个参数永远是该.py文件的名称，例如：
 # 运行python3 module.py获得的sys.argv就是['module.py']；
 # 运行python3 module.py Michael获得的sys.argv就是['module.py', 'Michael]。
