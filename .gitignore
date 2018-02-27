@@ -4,7 +4,13 @@
 # JetBrains IDEs
 .idea/
 out/
-.iml
+*.iws
+*.iml
+*.ipr
 
 # node
 node_modules/
+
+# maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
