@@ -1,6 +1,6 @@
 # 环境搭建
 
->当前代码使用的是node v8.9.4版本
+>当前代码使用的是node v8.9.4版本，webpack3
 
 - 全局安装webpack
 
@@ -55,6 +55,8 @@ npm install babel-loader babel-core babel-preset-env babel-plugin-syntax-dynamic
 ```
 
 # 插件
+
+插件的执行顺序是依次执行的
 
 - HtmlWebpackPlugin
 
